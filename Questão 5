@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro contador = 1
+    real nota
+    real soma = 0
+
+    enquanto(contador<=4){
+      escreva("\nDigite sua nota: ")
+      leia(nota)
+      soma = soma + nota
+      contador = contador + 1
+    }
+      escreva("Sua média ", soma/4)
+  }
+}
