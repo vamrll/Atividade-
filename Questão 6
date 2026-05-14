@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro numero, contador = 0, multiplicacao = 0, resultado
+    escreva("Digite um número: ")
+      leia(numero)
+    enquanto(contador<10){
+      contador = contador + 1
+      multiplicacao = multiplicacao + 1
+      resultado = numero * multiplicacao
+      escreva("\n", numero, "X", multiplicacao, "=", resultado)
+    }
+  }
+}
