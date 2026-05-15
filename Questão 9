@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro numero, contador = 0, repeticao = 0, metade
+
+    enquanto(repeticao < 10){
+      escreva("\nDigite um número: ")
+      leia(numero)
+
+      metade = numero / 2
+
+      se(metade * 2 == numero){
+        contador = contador + 1
+      }
+
+      repeticao = repeticao + 1
+    }
+    escreva("\nQuantidade de números pares digitados: ", contador)
+  }
+}
