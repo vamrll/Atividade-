@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro numero, maior, repeticao = 0
+
+    enquanto(repeticao < 5){
+      escreva("\nDigite um número: ")
+      leia(numero)
+
+      se(repeticao == 0){
+        maior = numero
+      }senao{
+        se(numero > maior){
+          maior = numero
+        }
+      }
+      repeticao = repeticao + 1
+    }
+    escreva("\nO maior número informado foi: ", maior)
+  }
+}
